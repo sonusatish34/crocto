@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -108,12 +108,14 @@ const Testimonials = () => {
                         <SwiperSlide key={id}>
                             <div className=" text-gray-800 rounded-lg p-6">
                                 <div className="flex flex-col justify-center items-center gap-4 mb-4">
-                                    <img
+                                    <Image
+                                        height={1000}
+                                        width={1000}
                                         src={img}
                                         alt={name}
                                         className="w-12 h-12 rounded-full border-2 border-gray-300"
                                     />
-                                    <p className="text-base italic pb-6 font-bold lg:text-xl text-center">"{review}"</p>
+                                    <p className="text-base italic pb-6 font-bold lg:text-xl text-center">{review}</p>
                                     <h3 className="font-semibold">{name}</h3>
                                     <p className="text-sm text-gray-500">{age}</p>
                                 </div>
