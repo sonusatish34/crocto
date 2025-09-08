@@ -12,9 +12,9 @@ export default function HowItWorks() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Card 1 */}
-                <div className="bg-[#FEF0C3] rounded-2xl p-5 relative flex flex-co justify-between">
+                <div className="bg-[#FEF0C3] rounded-2xl relative flex flex-co justify-between">
                     <Image alt='how crocto works' src={'/images/flower.png'} height={500} width={500} className="w-10 h-10 absolute top-[-1rem] left-[-1rem] text-3xl"></Image>
-                    <div>
+                    <div className='p-5'>
                         <h3 className="text-lg font-bold text-gray-900 mb-2">Gentle Pulses</h3>
                         <p className="text-sm text-gray-700">TENS therapy sends soft electrical signals through the skin.</p>
                         <button className="mt-4 self-start bg-white text-black font-semibold text-sm px-4 py-2 rounded-full shadow hover:bg-gray-100 transition">
@@ -22,20 +22,20 @@ export default function HowItWorks() {
                         </button>
                     </div>
 
-                    <div className="mt-4 w-full">
+                    <div className="w-full">
                         <Image
-                            src="/images/lady.png"
+                            src="/images/1stcutlady.png"
                             alt="Blocks Pain Signals"
                             width={400}
                             height={300}
-                            className="w-full h-[150px] object-contain lg:scale-150 scale-110"
+                            className="w-full lg:h-[340px] h-[200px] object-cover"
                         />
                     </div>
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-red-100 rounded-2xl p-5 relative flex flex-co justify-between overflow-hidden">
-                    <div>
+                <div className="bg-red-100 rounded-2xl relative flex flex-co justify-between overflow-hidden">
+                    <div className='pl-4 py-4'>
                         <h3 className="text-lg font-bold text-gray-900 mb-2">Blocks Pain Signals</h3>
                         <p className="text-sm text-gray-700">Prevents Period Pain</p>
                         <button className="mt-4 self-start bg-white text-black font-semibold text-sm px-4 py-2 rounded-full shadow hover:bg-gray-100 transition">
@@ -49,7 +49,7 @@ export default function HowItWorks() {
                             alt="Blocks Pain Signals"
                             width={400}
                             height={300}
-                            className="w-full lg:h-[230px] h-[161px] object-contain lg:scale-150 scale-110"
+                            className="w-full lg:h-[230px] h-[161px] object-contain lg:scale-125 scale-110 lg:relative lg:top-16 "
                         />
                     </div>
                 </div>
@@ -66,15 +66,13 @@ export default function HowItWorks() {
                         </button>
                     </div>
 
-
-
                     <div className="mt-4 w-full">
                         <Image
                             src="/images/lady.png"
                             alt="Natural Relief"
                             width={400}
                             height={300}
-                            className="w-full h-[180px] object-contain scale-150"
+                            className="w-full h-[180px] lg:h-[280px] object-contain scale-150 lg:scale-120"
                         />
                     </div>
                 </div>

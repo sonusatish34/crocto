@@ -33,7 +33,7 @@ export default function WhyChooseCrocto() {
   ];
 
   return (
-    <section className="lg:px-24 px-2 py-16">
+    <section className="lg:px-24 px-4 py-10">
       <div className="flex flex-col  lg:flex-row lg:gap-12 gap-4">
         {/* Left: Image */}
         <div className="w-full lg:w-1/2 relative">
@@ -55,7 +55,7 @@ export default function WhyChooseCrocto() {
             Why Choose Crocto ?
           </h2>
           <div className="h-1 w-24 bg-[#8660f6] mb-6 rounded"></div>
-          <ul className="space-y-10">
+          <ul className="lg:space-y-10 space-y-6">
             {features.map((item, index) => (
               <li key={index} className="flex items-start gap-4">
                 {/* <span className={`lg:text-2xl text-xs w-10 h-10 bg-[${item.bgcolor}] flex justify-center items-center h-10 w-10 bg-[#FAB76C]   rounded-full`}>{item.icon}</span> */}

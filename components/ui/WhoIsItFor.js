@@ -10,9 +10,9 @@ export default function WhoIsItFor() {
             </h2>
             <div className="h-1 w-24 bg-[#8660f6] mx-auto rounded mb-10" />
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
                 {/* Card 1 */}
-                <div className="bg-[#FEE6DC] rounded-2xl p-5 relative flex flex-co justify-between">
+                <div className="bg-[#FEE6DC] rounded-2xl p-5 relative flex flex-co justify-between overflow-hidden">
 
                     <div>
                         <h3 className="text-lg font-bold text-gray-900 mb-2">Women</h3>
@@ -28,13 +28,13 @@ export default function WhoIsItFor() {
                             alt="Blocks Pain Signals"
                             width={400}
                             height={300}
-                            className="w-full h-[200px] object-contain scale-150"
+                            className="w-full h-[200px] object-contain lg:scale-150 scale-125"
                         />
                     </div>
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-[#DFF7EA] rounded-2xl p-5 relative flex flex-co justify-between">
+                <div className="bg-[#DFF7EA] rounded-2xl p-5 relative flex flex-co justify-between overflow-hidden">
 
                     <div>
                         <h3 className="text-lg font-bold text-gray-900 mb-2">Without Tablets</h3>
@@ -52,13 +52,13 @@ export default function WhoIsItFor() {
                             alt="Blocks Pain Signals"
                             width={400}
                             height={300}
-                            className="w-full h-[200px] object-contain"
+                            className="w-full h-[200px] lg:h-[200px] lg:scale-125 scale-105 object-contain relative top-4 lg:top-0"
                         />
                     </div>
                 </div>
 
                 {/* Card 3 */}
-                <div className="bg-[#FEEFC1] rounded-2xl p-5 relative flex flex-co justify-between">
+                <div className="bg-[#FEEFC1] rounded-2xl p-5 relative flex flex-co justify-between overflow-hidden">
                     <div>
                         <h3 className="text-lg font-bold text-gray-900 mb-2">Anyone</h3>
                         <p className="text-sm text-gray-700">
@@ -77,7 +77,7 @@ export default function WhoIsItFor() {
                             alt="Natural Relief"
                             width={400}
                             height={300}
-                            className="w-full h-[200px] object-contain"
+                            className="w-full h-[200px] object-contain lg:scale-110 relative lg:top-4 top-7"
                         />
                     </div>
                 </div>

@@ -18,7 +18,7 @@ export default function Home() {
       <HowToUse />
       <WhoIsItFor/>
       <Testimonials />
-      <Influencers/>
+      {/* <Influencers/> */}
       <Waiting />
 
       {/* Testimonials - Swiper */}

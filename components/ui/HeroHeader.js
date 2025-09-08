@@ -32,9 +32,9 @@ export default function HeaderHero() {
             </header>
 
             {/* Hero Content */}
-            <div className="flex flex-row gap-6  px-4 lg:px-28    relative z-10 lg:pt-56 pt-32">
+            <div className="flex flex-row gap-6  px-4 lg:px-28    relative z-10 lg:pt-40 pt-10">
                 {/* Text Block */}
-                <div className="text-black lg:w-3/5 text-left ">
+                <div className="text-black lg:w-3/5 text-left pt-20 ">
                     <ul className='flex flex-col gap-y-4 pb-8'>
                         <li className="text-xl lg:text-[4rem] font-bold leading-tight">
                             Without Tablets
@@ -58,13 +58,13 @@ export default function HeaderHero() {
                 </div>
 
                 {/* Image */}
-                <div className="w-full lg:w-1/2 flex justify-center lg:justify-end relative lg:bottom-18">
+                <div className="w-full lg:w-1/2 flex justify-center lg:justify-end relative lg:bottom-24 top-14 lg:top-0">
                     <Image
                         src="/images/lady.png"
                         alt="Hero"
                         width={600}
                         height={600}
-                        className="lg:h-[570px] object-contain h-fit "
+                        className="lg:h-[570px]  object-contain h-[280px] scale-150 lg:scale-100"
                     />
                 </div>
             </div>

@@ -13,8 +13,8 @@ const Waiting = () => {
             <div className="h-1 w-24 bg-[#8660f6] mx-auto rounded mb-10" />
             <div className="relative bg-[#fff5f5] pt-1 lg:pt-20 pb-12 px-4 sm:px-8 w-full flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16">
                 <div className="lg:absolute lg:left-[644px] lg:-top-[31px] w-full lg:w-1/2 flex justify-center">
-                    <div className="lg:absolute relative -top-4 left-10 transform -translate-x-1/2 z-20 lg:left-auto lg:top-[-20px] lg:right-[178px]">
-                        <Image src={'/images/flower.png'} height={500} width={500} className="w-10 h-10"></Image>
+                    <div alt='kldsl' className="lg:absolute relative -top-4 left-10 transform -translate-x-1/2 z-20 lg:left-auto lg:top-[-20px] lg:right-[178px]">
+                        <Image alt='s' src={'/images/flower.png'} height={500} width={500} className="w-10 h-10"></Image>
                     </div>
                     <Image
                         src="/images/waiting.png"
