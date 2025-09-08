@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start md:flex-row md:justify-between mb-10">
           <div className="text-center md:text-left mb-6 md:mb-0">
             <div className="flex items-center justify-center md:justify-start">
-              <Image height={1000} width={1000} src="/images/logo.png" alt="Crocto Logo" className="h-32 mr-2" />
+              <Image height={1000} width={1000} src="/images/logo.png" alt="Crocto Logo" className="h-32 lg:w-[221px] w-44 mr-2" />
             </div>
             
           </div>
