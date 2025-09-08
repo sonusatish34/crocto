@@ -24,9 +24,9 @@ export default function HeaderHero() {
                         className="lg:h-[80px] h-[50px]  w-auto mb-2 scale-110 "
                     />
                     <nav className="flex  gap-2 lg:gap-20 text-black font-bold text-sm md:text-lg text-center z-20">
-                        <Link href="/ds" className="hover:text-purple-300">Home</Link>
-                        <Link href="#" className="hover:text-purple-300">About Us</Link>
-                        <Link href="#" className="hover:text-purple-300">Contact Us</Link>
+                        <Link href="/ds" className="hover:underline">Home</Link>
+                        <Link href="#" className="hover:underline">About Us</Link>
+                        <Link href="#" className="hover:underline">Contact Us</Link>
                     </nav>
                 </div>
             </header>

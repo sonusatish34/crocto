@@ -74,7 +74,7 @@ export default function HowItWorks() {
                             alt="Natural Relief"
                             width={400}
                             height={300}
-                            className="w-full h-[180px] object-contain scale-200"
+                            className="w-full h-[180px] object-contain scale-150"
                         />
                     </div>
                 </div>

@@ -34,7 +34,7 @@ export default function WhyChooseCrocto() {
 
   return (
     <section className="lg:px-24 px-2 py-16">
-      <div className="flex flex-col lg:flex-row lg:gap-12 gap-4">
+      <div className="flex flex-col  lg:flex-row lg:gap-12 gap-4">
         {/* Left: Image */}
         <div className="w-full lg:w-1/2 relative">
           <div className="rounded-[2rem] overflow-hidden">
@@ -43,7 +43,7 @@ export default function WhyChooseCrocto() {
               alt="Why Choose Crocto"
               width={1000}
               height={1000}
-              className=" w-[503px] h-fit object-cover"
+              className=" lg:w-[503px] lg:h-fit h-[300px] w lg:object-cover"
               priority
             />
           </div>
