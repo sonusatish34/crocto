@@ -1,6 +1,8 @@
 import { Dancing_Script,Montserrat,Poppins } from "next/font/google";
 import "./globals.css";
+import dynamic from "next/dynamic";
 
+const FaceBookPixel = dynamic(import('../components/ui/FaceBookPixel'))
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
   variable: "--font-dancing",
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} font-poppins antialiased`}>
+        <FaceBookPixel/>
         {children}
       </body>
     </html>
