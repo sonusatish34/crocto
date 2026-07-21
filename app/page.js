@@ -1,28 +1,31 @@
-"use client";
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import ProofStrip from '@/components/ProofStrip';
+import HowItWorks from '@/components/HowItWorksdd';
+import WhyCrocto from '@/components/WhyCrocto';
+import Steps from '@/components/Steps';
+import ComparisonTable from '@/components/ComparisonTable';
+import Testimonials from '@/components/Testimonials';
+import FAQ from '@/components/FAQ';
+import Footer from '@/components/Footer';
+import CTA from '@/components/CTA';
 
-import HeaderHero from "@/components/ui/HeroHeader";
-import WhyChooseCrocto from "@/components/ui/WhyChooseCrocto";
-import HowItWorks from "@/components/ui/HowItWorks";
-import HowToUse from "@/components/ui/HowToUse";
-import Waiting from "@/components/ui/Waiting";
-import Footer from "@/components/ui/Footer";
-import Testimonials from "@/components/ui/Testimonials";
-import WhoIsItFor from "@/components/ui/WhoIsItFor";
-import Influencers from "@/components/ui/Influencers";
 export default function Home() {
   return (
-    <main className="bg-white font-poppins">
-      <HeaderHero />
-      <WhyChooseCrocto />
-      <HowItWorks />
-      <HowToUse />
-      <WhoIsItFor/>
-      <Testimonials />
-      {/* <Influencers/> */}
-      <Waiting />
-
-      {/* Testimonials - Swiper */}
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+       
+        {/* <HowItWorks /> */}
+        {/* <WhyCrocto /> */}
+        <Steps />
+        <ComparisonTable />
+        <Testimonials />
+        <FAQ />
+      </main>
+      <CTA/>
       <Footer />
-    </main>
+    </>
   );
 }

@@ -34,9 +34,7 @@ body {
   --font-montserrat: "Montserrat", sans-serif;
 }
 
-body {
-  font-family: var(--font-poppins), sans-serif;
-}
+
 
 .font-dancing {
   font-family: var(--font-dancing), cursive;
@@ -50,3 +48,21 @@ body {
   font-family: var(--font-poppins), sans-serif;
 }
 
+@layer utilities {
+  
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom Scroll Animations Framework */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
