@@ -1,11 +1,13 @@
 import './globals.css';
 import Script from 'next/script';
-import { Geist, Geist_Mono, Plus_Jakarta_Sans, Inter , Manrope, Mulish} from "next/font/google";
+import { Manrope } from 'next/font/google';
 
 const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
+  variable: '--font-manrope',
+  subsets: ['latin'],
+  display: 'swap',
 });
+
 export const metadata = {
   title: "Crocto – Drug-Free Period Pain Relief Device | TENS Therapy in India",
   description: "Crocto is India's portable TENS therapy device for instant period pain relief — no tablets, no side effects. Clinically backed. Pocket-sized. Rechargeable via USB. Order now.",
@@ -26,14 +28,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en"  className={` ${manrope.className} h-full antialiased scroll-smooth`}
->
+    <html lang="en" className={`${manrope.className} h-full antialiased scroll-smooth`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
-        
+
         {/* Product Schema */}
         <Script id="product-schema" type="application/ld+json" strategy="afterInteractive">
           {JSON.stringify({
